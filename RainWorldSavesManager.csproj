@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>/home/ambiso/.local/share/Steam/steamapps/common/Rain World/BepInEx/core/BepInEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>/home/ambiso/.local/share/Steam/steamapps/common/Rain World/BepInEx/plugins/HOOKS-Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>/home/ambiso/.local/share/Steam/steamapps/common/Rain World/BepInEx/utils/PUBLIC-Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>/home/ambiso/.local/share/Steam/steamapps/common/Rain World/RainWorld_Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>/home/ambiso/.local/share/Steam/steamapps/common/Rain World/RainWorld_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
