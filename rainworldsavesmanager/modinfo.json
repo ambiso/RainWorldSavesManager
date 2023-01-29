@@ -1,0 +1,9 @@
+{
+	"id": "ambiso.rwsm",
+	"name": "Saves Manager",
+	"authors": "ambiso",
+	"description": "Multiple Save Slots and Automatic Backup. Save-scum harder!",
+	"requirements": [],
+	"requirements_names": [],
+	"checksum_override_version": false
+}
